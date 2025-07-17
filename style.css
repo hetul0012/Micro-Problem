@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f9fc;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  margin: 0;
+}
+.container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 400px;
+  text-align: center;
+}
+h1, h2 {
+  margin-bottom: 1rem;
+}
+form, #addCategorySection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+input, select, button {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+button {
+  background: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background: #45a049;
+}
+#resetBtn {
+  background: #f44336;
+  margin-top: 0.5rem;
+}
+#resetBtn:hover {
+  background: #d32f2f;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+th, td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+thead {
+  background-color: #eee;
+}
+canvas {
+  margin-top: 1rem;
+}
+#summary {
+  margin-top: 1rem;
+  font-weight: bold;
+}
